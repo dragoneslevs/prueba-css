@@ -1,0 +1,21 @@
+.main_section{
+    &__text{
+        color:black;
+        text-align: left;
+    }
+    &__image{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 1200px) {
+  .main_section__text {
+    width: 40%;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-top: 100px;
+
+    
+  }
+}

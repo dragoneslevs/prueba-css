@@ -1,0 +1,77 @@
+.bg_price{
+    background-image: url(../images/bg-price.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%vh;
+    height: 500;
+    h1{
+      text-align: center;
+      color: white;
+      padding-top: 200px;
+      padding-bottom: 30px;
+    }
+    
+}
+
+
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 50px 100px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0;
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: grid;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 410px;
+  
+  h2{
+      border-bottom: 1px black solid;
+  }
+  ol{
+      list-style: none;
+      padding-bottom: 10px;
+  }
+  li{
+      margin-bottom: 15px;
+  }
+  a {
+      background-color: $ball-blue;
+      color: $white-color;
+      border: solid 15px $ball-blue;
+      font-size: 20px;
+      width: 50px;
+      text-decoration: none;
+      
+  }
+  
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 60%;
+    display: block;
+    margin-bottom: 10px;
+    margin: 0;
+  }
+}
