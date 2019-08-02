@@ -1,0 +1,209 @@
+body {
+  margin: 0px 0px 0px 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px 15px 0 15px;
+  background-color: #fff;
+}
+.header li, .header a {
+  color: #221d23;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.button_2 {
+  transition: all 0.3s ease 0s;
+}
+
+.button_2:hover {
+  color: #77d1dd;
+}
+
+.button_2 {
+  background-color: #2ab7ca;
+  border: solid 10px #2ab7ca;
+  border-radius: 1px;
+  color: #fff;
+}
+
+.main_section__text {
+  color: black;
+  text-align: left;
+}
+.main_section__image {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .main_section__text {
+    width: 40%;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+}
+.main_article {
+  margin-bottom: 150px;
+}
+.main_article h1 {
+  text-align: center;
+}
+.main_article__text {
+  display: flex;
+}
+.main_article__image {
+  padding-left: 70px;
+}
+.main_article__parrafo {
+  padding-left: 70px;
+}
+
+@media screen and (max-width: 600px) {
+  .main_article__text {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    margin: 0;
+  }
+}
+.bg_price {
+  background-image: url(../images/bg-price.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100% vh;
+  height: 500;
+}
+.bg_price h1 {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 50px 100px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 410px;
+}
+.card h2 {
+  border-bottom: 1px black solid;
+}
+.card ul {
+  padding-bottom: 10px;
+}
+.card li {
+  margin-bottom: 15px;
+}
+.card a {
+  background-color: #2ab7ca;
+  color: #fff;
+  border: solid 15px #2ab7ca;
+  font-size: 20px;
+  width: 50px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 60%;
+    display: block;
+    margin-bottom: 10px;
+    margin: 0;
+  }
+}
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+}
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-right {
+    text-align: center;
+  }
+
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
